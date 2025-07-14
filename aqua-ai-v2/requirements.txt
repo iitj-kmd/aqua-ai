@@ -1,0 +1,7 @@
+streamlit
+streamlit-webrtc
+transformers
+torch
+pillow
+opencv-python
+av
