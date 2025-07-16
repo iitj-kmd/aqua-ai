@@ -1,4 +1,4 @@
-# 💧 Aqua-AI V2
+# 💧 Aqua-AI 
 
 Aqua-AI V2 is an AI-powered web application built with Streamlit that helps intelligently monitor water consumption by detecting whether a person is holding a water bottle in front of a webcam.
 
@@ -9,6 +9,7 @@ The app uses a machine learning model from Hugging Face called **DETR (DEtection
 
 This version detects whether a person is holding a water bottle in front of a webcam, helping promote healthy water consumption habits.
 
+Note :  All versions are in their own folder
 ---
 
 ## 🎯 Key Differences from V2
@@ -16,6 +17,7 @@ This version detects whether a person is holding a water bottle in front of a we
 ✅ Uses **native YOLO** (e.g. YOLOv5 or YOLOv8)  
 ✅ Runs locally without internet after installing weights  
 ✅ Faster inference speed compared to large transformers  
+✅ Smooth video which is not attainable in streamlit UI
 ✅ Fully integrated with:
 - **OpenCV** for image handling and bounding boxes
 - **PyTorch** for running YOLO model
@@ -24,10 +26,8 @@ This version detects whether a person is holding a water bottle in front of a we
 
 ## Project Purpose
 
-✅ Monitor hydration habits  
-✅ Encourage people to drink water regularly  
-✅ Practice computer vision and machine learning techniques  
-✅ Learn how to integrate real-time video streaming in a web app
+✅ Monitor hydration habits  for family members 
+✅ Encourage people to drink water regularly
 
 ---
 
