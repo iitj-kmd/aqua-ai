@@ -13,8 +13,6 @@ The app uses a machine learning model from Hugging Face called **DETR (DEtection
 ✅ Practice computer vision and machine learning techniques  
 ✅ Learn how to integrate real-time video streaming in a web app
 
-This is a student-friendly, educational project demonstrating how AI and video can work together!
-
 ---
 
 ## Features
