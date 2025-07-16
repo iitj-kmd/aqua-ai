@@ -4,6 +4,22 @@ Aqua-AI V2 is an AI-powered web application built with Streamlit that helps inte
 
 The app uses a machine learning model from Hugging Face called **DETR (DEtection TRansformer)** to detect objects in a video stream in real-time. It highlights detected objects like a person and a bottle with bounding boxes.
 
+
+**Aqua-AI V4** is a new version of the Aqua-AI project that uses a **native YOLO object detection model** built entirely with OpenCV and PyTorch — instead of relying on Hugging Face models.
+
+This version detects whether a person is holding a water bottle in front of a webcam, helping promote healthy water consumption habits.
+
+---
+
+## 🎯 Key Differences from V2
+
+✅ Uses **native YOLO** (e.g. YOLOv5 or YOLOv8)  
+✅ Runs locally without internet after installing weights  
+✅ Faster inference speed compared to large transformers  
+✅ Fully integrated with:
+- **OpenCV** for image handling and bounding boxes
+- **PyTorch** for running YOLO model
+- 
 ---
 
 ## Project Purpose
